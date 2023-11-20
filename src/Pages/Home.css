@@ -1,0 +1,14 @@
+.FullPage{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh;
+}
+.SideBar{
+    width: 20%;
+    border-right: 2px solid #e6e6e6;
+    margin: 0px 5px 0px 5px;
+}
+.Main{
+    width: 75%;
+}

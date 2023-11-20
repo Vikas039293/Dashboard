@@ -1,0 +1,140 @@
+table {
+    border-collapse: collapse;
+    position: relative;
+    top:150px;
+    left: 45px;
+  }
+tr{
+    border-bottom: 1px solid #e4e4e4;
+    height: 70px;
+}
+  td,th {
+    /* border: 1px solid black; */
+    text-align: left;
+    padding: 5px 20px 5px 20px;
+    width: 140px;
+  }
+td:nth-child(1),th:nth-child(1){
+    border-left: 1px solid #e4e4e4;
+    width: 224px;
+    padding: 0 20px 0 20px;
+    border-radius: 5px;
+}
+td:nth-child(6),th:nth-child(6){
+    border-right: 1px solid #e4e4e4;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.heading,.status{
+    position: relative;
+    left:50px;
+}
+.heading{
+    font-size: 30px;
+    top: 50px;
+    font-weight: 600;
+}
+.status{
+    top:70px;
+}
+.pending,.completed{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    margin-left: 0px;
+}
+
+.searchBar,.treason,.risk{
+    position: relative;
+    top:100px;
+    display: inline-block;
+}
+.searchBar{
+    height: 40px;
+    width: 390px;
+    left: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+.treason{
+    left:85px;
+}
+.risk{
+    left:100px;
+}
+.treason,.risk{
+    padding: 7px;
+    background-color: rgb(235 235 235);
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    cursor: pointer;
+}
+.reasonList,.riskList{
+    position: absolute;
+    padding: 10px;
+    z-index: 2;
+    width: 170px;
+    max-height: 150px;
+    background-color: white;
+    border: 0.5px groove grey;
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px 2px 2px #ededfe;
+    overflow: auto;
+}
+.reasonList{
+    top: 210px;
+    left: 715px;
+}
+.riskList{
+    top:210px;
+    left:810px;
+}
+.dropDownItem{
+    padding: 5px;
+}
+.dropDownItem:hover{
+    background-color: #ededfe;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.status{
+    padding-bottom: 0px;
+    border-bottom: 3.5px groove #f5f5f5;
+    max-width: 1160px;
+    min-width: 720px;
+    width: 100%;
+}
+/* .statusItems{
+    display: flex;
+} */
+.pending,.completed{
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    border-bottom: 2px groove #4643ee;
+    cursor: pointer;
+    display: inline-block;
+    /* float: left; */
+    
+}
+.closeAccount{
+    display: inline-block;
+    float: right;
+    padding: 7px;
+    background-color: #ff000029;
+    color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card{
+    background-color: white;
+    z-index: 3;
+    position: absolute;
+    align-items: center;
+}
+
+
